@@ -5,7 +5,7 @@ import styles from "../css/Projects.module.css";
 const projects = [
   {
   name: "School Management App",
-  image: "/src/assets/school.jpg",
+  image: "/assets/school.jpg",
   description: "A web-based school management system that allows teachers to manage classes and students efficiently.",
   link: "#", 
   techStack: ["HTML", "CSS", "JavaScript"],
@@ -13,14 +13,14 @@ const projects = [
 },
   {
     name: "Weather App",
-    image: "/src/assets/weather.jpg",
+    image: "/assets/weather.jpg",
     description: "A simple weather app using OpenWeatherMap API.\nCheck the forecast for your city ",
     techStack: ["HTML", "CSS", "JavaScript"],
     featured: false,
   },
   {
     name: "Invoice App",
-    image: "/src/assets/app.jpg",
+    image: "/assets/app.jpg",
     description: "A web application that allows users to add customers, create and manage invoices, and track payments easily.",
     link: "#",
     techStack: ["HTML", "CSS", "JavaScript"],

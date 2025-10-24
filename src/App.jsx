@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Header name="Hamida Fathi" message="Welcome to my developer portfolio!" />
       <Profile 
-        photo="/src/assets/hamida.jpg" 
+        photo="assets/hamida.jpg" 
         title="Frontend Developer" 
         bio="I’m originally from Afghanistan, currently studying computer programming  at George Brown College in Toronto, Canada. I’m passionate about coding, software engineering, and creating web applications. I enjoy learning new technologies." 
          
