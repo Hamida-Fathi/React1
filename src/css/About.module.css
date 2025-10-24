@@ -1,0 +1,80 @@
+.about {
+  padding: 4rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #0077ff;
+}
+
+.intro, .goals, .more p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color: #222;
+}
+
+.list {
+   display: flex; 
+   gap:10px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.list li {
+  background: #f4f9ff;
+  border: 1px solid #e0eaff;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.more {
+  background: #f8fbff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.toggleBtn {
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggleBtn:hover {
+  background-color: #005fcc;
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    padding: 3rem 1rem;
+  }
+
+  .heading {
+    font-size: 1.7rem;
+  }
+
+  .intro, .goals {
+    font-size: 1rem;
+  }
+}

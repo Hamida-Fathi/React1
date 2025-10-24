@@ -1,0 +1,40 @@
+.footer {
+  background-color: #8cc6e0;
+  
+  text-align: center;
+  padding:1rem;
+  margin-top: 3rem;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: #060000;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+.copy {
+  font-size: 0.9rem;
+  color: #060606;
+}
+
+@media (max-width: 600px) {
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .copy {
+    font-size: 0.8rem;
+  }
+}
